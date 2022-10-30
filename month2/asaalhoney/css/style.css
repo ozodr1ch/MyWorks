@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,400;1,700&family=Oswald:wght@200&family=Poppins:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    padding: 30px;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav__link {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #000;
+}
+
+.nav__link:hover {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.logo1 {
+    height: 40px;
+    width: 92.2222671508789px;
+    left: 227px;
+    top: 30px;
+    border-radius: 0px;
+}
+
+.banner {
+    background: url(../img/Component\ 1.png) no-repeat center/cover;
+    padding-top: 182px;
+    border-radius: 30px;
+    padding-bottom: 138px;
+    margin: 0px 50px;
+}
+
+.banner__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.banner__p {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 130px;
+}
+
+.banner__p:nth-child(2) {
+    margin-left: 100px;
+}
+
+.but {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.btn {
+    border: 2px solid #000000;
+}
+
+.banner__btn {
+    font-family: 'Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    transition: 0.3s;
+    background-color: transparent;
+    padding: 18px 50px;
+}
+
+.banner__btn:hover {
+    background-color: #000;
+    color: white;
+}
+
+.shops {
+    margin-bottom: 130px;
+}
+
+.shops__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-top: 130px;
+    margin-bottom: 52.77px;
+}
+
+.shops__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 102px;
+}
+
+.group__wrap {
+    margin-left: 97px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.group__wrap:nth-child(2) {
+    margin-right: 97px;
+    display: flex;
+    flex-direction: column;
+}
+
+.group__h {
+    margin-top: 205px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+.group__p {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    Opacity: 70%;
+    width: 600px;
+}
+
+.group__btn {
+    padding: 15px 40px;
+    background: #E58311;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #fff;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.card {
+    margin-top: 103px;
+    margin-left: 111px;
+}
+
+.card__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    padding-right: 110px;
+    padding-left: 30px;
+}
+
+.card__wrap:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65px;
+    width: 600px;
+    padding-top: 50px;
+}
+
+.card__p {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    opacity: 70%;
+    margin-top: 30px;
+    width: 550px;
+}
+
+.card__btn {
+    padding: 15px 40px;
+    background-color: #E58311;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    border: 1px solid black;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.card__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    flex-direction: row-reverse;
+    margin-left: 30px;
+}
+
+.card__wrap:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 30px;
+}
+
+.card__p {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    Opacity: 70%;
+}
+
+.card__btn {
+    padding: 15px 40px;
+    background: #E58311;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #fff;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.our {
+    padding-top: 101px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.our-product-block-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 130px;
+}
+
+.our-block {
+    display: flex;
+    align-items: center;
+    background: #ffe9cf;
+    padding: 20px;
+    height: 305px;
+    width: 558px;
+
+}
+
+.our-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-product-p {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.our-product-p1 {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.see-all {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.see-all:hover {
+    border-bottom: 2px solid #E58211;
+}
+
+.our-product-p2 {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    opacity: 0.7;
+    padding-bottom: 40px;
+
+}
+
+.our-product-button {
+    padding: 12px 30px 12px 30px;
+    border: solid 1px orange;
+    color: orange;
+    cursor: pointer;
+    background: none;
+}
+
+a {
+    color: orange;
+}
+
+.our-product-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+
+}
+
+.foot__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    gap: 90px;
+}
+
+.foot__p {
+    font-family: 'Medium', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+
+}
+
+.foot__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.apps__wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

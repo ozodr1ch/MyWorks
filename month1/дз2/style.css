@@ -1,0 +1,27 @@
+body {background: rgb(0, 0, 0);}
+
+.zg1 {background: rgb(12, 16, 219);
+    color: white;
+    text-align: center;
+    font-size: 30px;}
+.text {background: rgb(8, 83, 1);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    width: auto;
+    height: auto;
+    border-radius: 30px;}
+img {display: block;
+    margin: 0 auto;}
+h1 {color: white;
+    text-align: center;
+    font-size: 30px;}
+h2 {color: rgb(0, 90, 23);
+    font-size: 15px;}
+    

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(0, 47, 255);
+    background: rgb(255, 187, 0);
+    font-size: 23px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbo {
+    width: 1200px;
+    height: 1200px;
+    margin: 0 auto;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.box2 {
+    order: 5;
+    align-self: flex-start;
+}
+
+.box4 {
+    order: -5;
+    align-self: flex-end;
+}
